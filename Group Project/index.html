@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Communication ToolKit</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      
+    }
+    .flex {
+      /* position:; */
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid black;
+      padding: 10px;
+      justify-content: center ;
+      align-items: center;
+     
+    }
+
+    .flex-items {
+      display: flex;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid black;
+    }
+
+    .flex1 {
+      justify-content: space-evenly;
+    }
+
+
+    .grid-box {
+      display: grid;
+      grid-template-columns: repeat(2,0.1fr);
+      justify-content: center;
+      margin: 50px;
+
+      gap: 50px 50px;
+      /* border: 1px solid black; */
+    }
+
+    .grid-items {
+      padding: 20px;
+      border: 1px solid black;
+      /* border-radius: 20px; */
+      text-align: center;
+
+    }
+
+    img {
+      height: 250px;
+      /* width: 5%; */
+    }
+
+    p {
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 20px;
+    }
+
+
+  </style>
+</head>
+<body> 
+  <div class="flex">
+    <div class="logo">Communication Toolkit</div>
+    <div class="flex-items">Home</div>
+    <div class="flex-items">About Us</div>
+    <div class="flex-items">Contact Us</div>
+  </div>
+
+  <div class="flex flex1">
+    <div>Professional Communication</div>
+    <div>General Communication</div>
+    <div>Others</div>
+  </div>
+  <div class="grid-box">
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p>Verbal Communication</p>
+    </div>
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p>Non-verbal Communication</p>
+    </div>
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p>Written Communication</p>
+    </div>
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p> Communication</p>
+    </div>
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p>Physical Communication</p>
+    </div>
+    <div class="grid-items">
+      <img  src="images/Communicate-remote-team-1024x512.png" alt="">
+      <p>Physical Communication</p>
+    </div>
+  </div>
+</body>
+</html>
